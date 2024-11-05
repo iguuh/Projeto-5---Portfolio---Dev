@@ -1,0 +1,70 @@
+/* utility-first */
+
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col-3 {
+    grid-template-columns: 330px 330px 330px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
+
+}
+
+.tlt-lg {
+    font: var(--font-family-tltlg);
+}
+
+.tlt-md {
+    font: var(--font-family-tltmd);
+}
+
+.tlt-sm {
+    font: var(--font-family-tltsm);
+}
+
+.sub-tlt {
+    font: var(--font-family-sbt);
+}
+
+.small-tlt {
+    font: var(--font-family-sm-tlt);
+}
+
+.txt-md {
+    font: var(--font-family-txtmd);
+}
+
+.txt-sm {
+    font: var(--font-family-txtsm);
+}
+
+.text-align {
+    text-align: center;
+}
+
+.border {
+    border: 2px solid var(--base-cl-300);
+    border-radius: 12px;
+    width: 280px;
+    height: 155px;
+
+}
+
+.hover {
+    :hover{
+    border: 2px solid var(--base-cl-400);
+    }
+}
+.nohover {
+    :hover{
+        border: 0px;
+    }
+}

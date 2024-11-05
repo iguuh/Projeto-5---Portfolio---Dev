@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+
+    --principal-cl-red:#e3646e;
+    --principal-cl-purple:#bb72e9;
+    --principal-cl-blue:#3996db;
+    --principal-cl-green:#82bc4f;
+    --principal-cl-yellow:#eabd5f;
+    --base-cl-100:#0d0e11;
+    --base-cl-200:#16181d;
+    --base-cl-300:#292c34;
+    --base-cl-400:#878ea1;
+    --base-cl-500:#c0c4ce; 
+    --base-cl-600:#e2e4e9;
+
+    --font-family-one: "Maven Pro", sans-serif;
+    --font-family-two: "Asap", serif;
+    --font-family-three: "Inconsolata", serif;
+
+    --font-family-tltlg: bold 56px/120% var(--font-family-two);
+    --font-family-tltmd: bold 20px/140% var(--font-family-two);
+    --font-family-tltsm: bold 14px/140% var(--font-family-two);
+
+    --font-family-sbt: 400 20px/120% var(--font-family-three);
+    --font-family-sm-tlt: 400 13px/120% var(--font-family-three);
+
+    --font-family-txtmd: 400 16px/140% var(--font-family-one);
+    --font-family-txtsm: 400 14px/140% var(--font-family-one);
+    
+}
+
+.container {
+    
+    margin-inline: auto;
+    padding-top: 50px;
+    display: grid;
+    
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+header {
+    background: url(../assets/images/Background_Intro.png);
+    background-size: 100vw;
+}
+
+
+body {
+    background-color: var(--base-cl-200);
+}
+
+.titleMain {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titleMain p {
+    margin-top: 120px;
+    color: var(--principal-cl-red);
+}
+
+.titleMain h2 {
+    margin-top: 12px;
+}
+
+section {
+    object-fit: cover;
+   
+    figcaption p {
+        color: var(--base-cl-400);
+    }
+
+    nav p {
+        color: var(--base-cl-400);
+    }
+}
+
+figcaption {
+    height: 280px;
+    background-color: var(--base-cl-300);
+    border-radius: 12px;
+    
+}
+
+figcaption img{
+    width: 306px;
+    height: 156px;
+    object-fit:scale-down;
+    margin: 12px 12px 20px 12px;
+    border-radius: 8px;
+}
+
+figcaption h3 {
+    color: var(--base-cl-600);
+}
+
+figcaption h3 , p {
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+#downPage {
+    background-color: var(--base-cl-100);
+    height: 600px;
+    
+}
+
+#downPage div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pageAside p {
+    margin-top: 60px;
+
+}
+
+nav {
+    
+    
+    padding: 20px;
+    justify-content: center;
+}
+
+nav h2 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+aside p:nth-child(1){
+    color: var(--principal-cl-red);
+}
+
+
+section p {
+    color: var(--base-cl-600);
+
+}
+
+nav p{
+    color: var(--base-cl-600);
+}
+
+footer {
+    background: url(../assets/images/Background_Contacts.png);
+    
+    display: grid;
+    align-items: center;
+    justify-content: center;    
+    margin: auto;  
+    margin-bottom: 200px;  
+    color: var(--base-cl-600);
+}
+
+footer p:nth-child(1) {
+    color: var(--principal-cl-purple);
+    display: flex;  
+    justify-content: center;
+}
+
+
+.lastContainer {
+    display: inline;
+    
+    margin: auto;
+
+}
+
+.lastContainer h2 {
+    margin-bottom: 60px;
+}
+
+
+.clickBotton {
+    display: flex;
+    width: 400px;
+    height: 68px;
+    background-color: var(--base-cl-300);
+    margin-bottom: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+
+   img {
+    margin: 20px;
+    }
+
+    p {
+        color: var(--base-cl-700);
+    }
+    
+}
+
